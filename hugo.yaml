@@ -26,15 +26,11 @@ params:
   description: "Early-Career Data Scientist & AI Engineer"
   favicon: "/favicon.ico"
 
-  # Whether to serve bootstrap css and js files from CDN or not
   useBootstrapCDN: false
-
-  # Whether the fade animations on the home page will be enabled
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    defaultTheme: "light" # dark or light
+    defaultTheme: "light"
 
   font:
     fontSize: 1rem
@@ -42,15 +38,14 @@ params:
     lineHeight: 1.5
     textAlign: left
 
-  # If you want to customize the menu, you can change it here
   navbar:
-    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto
+    align: ms-auto
     showBrandLogo: false
     brandName: "Clara Zeng"
     disableSearch: true
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperience: true  # Disabled - using projects instead
       disableEducation: false
       disableProjects: false
       disableContact: false
@@ -98,44 +93,9 @@ params:
         - "AWS, Oracle Cloud, MLflow"
         - "Differential Privacy, NLP"
 
-  # Experience Section
+  # Experience Section - DISABLED
   experience:
-    enable: true
-    items:
-      - job: "Associate Data Scientist"
-        company: "Cmind AI"
-        companyUrl: ""
-        date: "May 2024 - Present"
-        content: |
-          - Architected modular ML microservices for feature selection, class imbalance handling, and model training, enabling independent scaling and reducing production failure risk
-          - Enhanced EPS Surprise Prediction system with automated retraining pipelines, training XGBoost, SVM, & RNN models on 15+ years of financial data to achieve 90% quarterly forecast accuracy
-          - Led development of end-to-end sentiment-analysis pipeline using FinBERT and OpenAI APIs
-          - Leveraged MLflow for experiment tracking, model version control, and deployment monitoring
-
-      - job: "Data Analyst Intern"
-        company: "Bluebono"
-        companyUrl: ""
-        date: "Jun 2025 - Aug 2025"
-        content: |
-          - Designed loan-to-value estimation and market-score evaluation pipeline for residential properties
-          - Directed dataset acquisition, negotiating contracts and integrating real-time data feed from CRMLS via Trestle API
-          - Engineered 11.3M property records with 1,000+ features; applied unsupervised clustering to reduce dimensionality by 65%
-
-      - job: "Research Assistant"
-        company: "USC"
-        companyUrl: ""
-        date: "Jan 2024 - May 2025"
-        content: |
-          - Conducted research on privacy-preserving knowledge distillation for LLMs, integrating Differentially Private SGD
-          - Re-engineered text dataset distillation framework using Hugging Face models with differential privacy integration
-
-      - job: "Quantitative Analyst Intern"
-        company: "Guangfa Futures"
-        companyUrl: ""
-        date: "Jun 2023 - Aug 2023"
-        content: |
-          - Applied regression, time-series, and K-Means clustering models to identify predictive patterns in futures markets
-          - Developed monthly and quarterly forecasting models and delivered actionable reports for trading strategy decisions
+    enable: false
 
   # Education Section
   education:
@@ -160,54 +120,92 @@ params:
           - Teaching Assistant for undergraduate courses
           - Research Assistant in Privacy-Preserving ML
 
-  # Projects Section
+  # Projects Section - Now includes Experience + Projects
   projects:
     enable: true
+    title: "Experience & Projects"
     items:
+      # ===== WORK EXPERIENCE =====
+      - title: "Associate Data Scientist @ Cmind AI"
+        content: "Building production ML systems for financial applications. Architected microservices for feature selection and model training. Achieved 90% accuracy on EPS prediction using XGBoost, SVM, and RNN models."
+        badges:
+          - "Work Experience"
+          - "MLOps"
+          - "Financial ML"
+          - "NLP"
+        links:
+          - icon: fas fa-arrow-right
+            url: "/experiences/cmind-ai/"
+
+      - title: "Data Analyst Intern @ Bluebono"
+        content: "Designed loan-to-value estimation pipeline for residential properties. Processed 11.3M property records with 1,000+ features. Reduced dimensionality by 65% using unsupervised clustering."
+        badges:
+          - "Work Experience"
+          - "Real Estate Analytics"
+          - "Data Engineering"
+        links:
+          - icon: fas fa-arrow-right
+            url: "/experiences/bluebono/"
+
+      - title: "Research Assistant @ USC"
+        content: "Researched privacy-preserving knowledge distillation for LLMs. Integrated Differentially Private SGD to protect training data while maintaining model performance."
+        badges:
+          - "Work Experience"
+          - "Privacy ML"
+          - "LLMs"
+          - "Research"
+        links:
+          - icon: fas fa-arrow-right
+            url: "/experiences/usc-research/"
+
+      - title: "Quantitative Analyst Intern @ Guangfa Futures"
+        content: "Applied regression, time-series, and K-Means clustering to identify predictive patterns in futures markets. Delivered forecasting models and reports for trading strategy decisions."
+        badges:
+          - "Work Experience"
+          - "Quant Finance"
+          - "Time Series"
+        links:
+          - icon: fas fa-arrow-right
+            url: "/experiences/guangfa-futures/"
+
+      # ===== PROJECTS =====
       - title: "Tesla Global Sourcing Strategy Competition"
         content: "Advanced to semi-finals among 40+ teams, building a cost-optimization model analyzing $200M+ sourcing decisions and quantifying $18.7M in operational flexibility value."
         badges:
-          - "Supply Chain Optimization"
+          - "Project"
+          - "Supply Chain"
           - "Monte Carlo Simulation"
-          - "Strategic Analysis"
-        # image: /images/projects/tesla.png
-        # links:
-        #   - icon: fab fa-github
-        #     url: https://github.com/
 
       - title: "AI-Based Career Advisor"
         content: "Interactive AI tool leveraging GPT APIs and Llama3 with 1.3M+ dataset entries for personalized career path recommendations and real-time skill gap analysis."
         badges:
+          - "Project"
           - "LLMs"
           - "Python"
           - "Streamlit"
-          - "NLP"
-        # links:
-        #   - icon: fab fa-github
-        #     url: https://github.com/
 
       - title: "Meridio – AI Educational Gaming Platform"
         content: "GPT-powered conversational system for a web-based educational platform, helping middle school students engage with math through AI-driven discussions."
         badges:
+          - "Project"
           - "OpenAI API"
           - "React.js"
           - "Node.js"
-          - "Prompt Engineering"
 
       - title: "Hate Speech Detection"
         content: "Built and compared ML models on 40,000+ social media samples, optimizing fine-tuned BERT to achieve 79.5% test accuracy with comprehensive error analysis."
         badges:
+          - "Project"
           - "BERT"
           - "NLP"
-          - "Hyperparameter Optimization"
 
       - title: "USC Study Room Rating App"
         content: "Full-stack web application serving 5,000+ USC students to crowdsource ratings for 100+ campus study locations with sorting, filtering, and reservation features."
         badges:
+          - "Project"
           - "React.js"
           - "Java"
           - "MySQL"
-          - "REST APIs"
 
   # Contact Section
   contact:
@@ -215,10 +213,7 @@ params:
     title: "Get In Touch"
     content: "I'm currently open to 2026 new-grad roles in Data Science, AI/ML Engineering, and Data Engineering. Feel free to reach out!"
     btnName: "Email Me"
-    btnLink: "mailto:qiang_zeng@berkeley.edu"  # Update with your email
-    # formspree:
-    #   enable: true
-    #   formId: your-form-id  # Add your Formspree form ID if you want a contact form
+    btnLink: "mailto:your-email@example.com"
 
   # Footer
   footer:
@@ -231,14 +226,10 @@ params:
     socialNetworks:
       github: https://github.com/Clara-z
       linkedin: https://www.linkedin.com/in/qiang-zeng-clara/
-      # twitter: https://twitter.com/
-      # instagram: https://instagram.com/
 
-  # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
 
-  # Single pages like blog posts
   singlePages:
     readTime:
       enable: true

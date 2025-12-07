@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Real Estate Analytics on Clara Zeng</title>
+    <link>http://localhost:1313/tags/real-estate-analytics/</link>
+    <description>Recent content in Real Estate Analytics on Clara Zeng</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/real-estate-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analyst Intern at Bluebono</title>
+      <link>http://localhost:1313/experiences/bluebono/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/bluebono/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;At Bluebono, I designed and implemented a comprehensive loan-to-value estimation and market-score evaluation pipeline for residential properties. This project covered the full data science lifecycle from project scoping and data acquisition to model deployment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;&#xA;&lt;h3 id=&#34;data-acquisition--vendor-management&#34;&gt;Data Acquisition &amp;amp; Vendor Management&lt;/h3&gt;&#xA;&lt;p&gt;Directed dataset acquisition efforts by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Evaluating multiple data vendors and their offerings&lt;/li&gt;&#xA;&lt;li&gt;Negotiating contracts for optimal pricing and data access&lt;/li&gt;&#xA;&lt;li&gt;Integrating a real-time data feed from the &lt;strong&gt;California Regional Multiple Listing Service (CRMLS)&lt;/strong&gt; via the Trestle API&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This established a reliable, up-to-date data pipeline for property information across California.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

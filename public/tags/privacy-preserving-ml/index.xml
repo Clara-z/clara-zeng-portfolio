@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacy-Preserving ML on Clara Zeng</title>
+    <link>http://localhost:1313/tags/privacy-preserving-ml/</link>
+    <description>Recent content in Privacy-Preserving ML on Clara Zeng</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/privacy-preserving-ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Assistant at USC</title>
+      <link>http://localhost:1313/experiences/usc-research/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/usc-research/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;As a Research Assistant at USC, I conducted cutting-edge research on privacy-preserving techniques for large language models. My work focused on enabling the benefits of powerful LLMs while protecting sensitive training data.&lt;/p&gt;&#xA;&lt;h2 id=&#34;research-focus-privacy-preserving-knowledge-distillation&#34;&gt;Research Focus: Privacy-Preserving Knowledge Distillation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-problem&#34;&gt;The Problem&lt;/h3&gt;&#xA;&lt;p&gt;Large language models like GPT-2 are trained on massive datasets that may contain sensitive information. When deploying these models or sharing them, there&amp;rsquo;s a risk of inadvertently leaking private data from the training set.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
