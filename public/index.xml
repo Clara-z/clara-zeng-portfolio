@@ -1,89 +1,110 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Clara Zeng</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Clara Zeng</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Data Analyst Intern at Bluebono</title>
-      <link>http://localhost:1313/experiences/bluebono/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experiences/bluebono/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;At Bluebono, I designed and implemented a comprehensive loan-to-value estimation and market-score evaluation pipeline for residential properties. This project covered the full data science lifecycle from project scoping and data acquisition to model deployment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;&#xA;&lt;h3 id=&#34;data-acquisition--vendor-management&#34;&gt;Data Acquisition &amp;amp; Vendor Management&lt;/h3&gt;&#xA;&lt;p&gt;Directed dataset acquisition efforts by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Evaluating multiple data vendors and their offerings&lt;/li&gt;&#xA;&lt;li&gt;Negotiating contracts for optimal pricing and data access&lt;/li&gt;&#xA;&lt;li&gt;Integrating a real-time data feed from the &lt;strong&gt;California Regional Multiple Listing Service (CRMLS)&lt;/strong&gt; via the Trestle API&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This established a reliable, up-to-date data pipeline for property information across California.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Resume</title>
-      <link>http://localhost:1313/resume/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resume/</guid>
-      <description>&lt;h3 id=&#34;-download-pdf&#34;&gt;&lt;a href=&#34;http://localhost:1313/Clara_Zeng_resume.pdf&#34;&gt;⬇ Download PDF&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;213-248-9142 | &lt;a href=&#34;mailto:qiang_zeng@berkeley.edu&#34;&gt;qiang_zeng@berkeley.edu&lt;/a&gt; | Berkeley, CA | &lt;a href=&#34;https://www.linkedin.com/in/qiang-zeng-clara/&#34;&gt;LinkedIn&lt;/a&gt; | &lt;a href=&#34;https://github.com/Clara-z&#34;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;cmind-ai--associate-data-scientist&#34;&gt;Cmind AI | Associate Data Scientist&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;May 2024 – Sep 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Architected and deployed modular machine-learning microservices for feature selection, class imbalance handling, and model training, enabling independent scaling and reducing production failure risk.&lt;/li&gt;&#xA;&lt;li&gt;Enhanced the Earnings Per Share Surprise Prediction system by implementing automated retraining pipelines, training XGBoost, SVM, &amp;amp; RNN models on 15+ years of financial data to achieve 90% quarterly forecast accuracy.&lt;/li&gt;&#xA;&lt;li&gt;Led development of a customizable end-to-end sentiment-analysis pipeline using FinBERT (financial domain) and OpenAI APIs for tailored Q&amp;amp;A with explanations; designed Oracle Cloud ingestion for cost-efficient legacy-system compatibility and AWS S3 storage to support a smooth migration to modern client-facing analytics workflows.&lt;/li&gt;&#xA;&lt;li&gt;Leveraged MLflow for experiment tracking, model version control, and deployment monitoring, ensuring reproducibility, transparency, and compliance with internal MLOps standards.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;bluebono--data-analyst-intern&#34;&gt;Bluebono | Data Analyst Intern&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;June – Aug 2025&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Associate Data Scientist at Cmind AI</title>
-      <link>http://localhost:1313/experiences/cmind-ai/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experiences/cmind-ai/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;At Cmind AI, I work as an Associate Data Scientist focusing on building production-ready machine learning systems for financial applications. My work spans from architecting ML microservices to developing end-to-end NLP pipelines.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-projects&#34;&gt;Key Projects&lt;/h2&gt;&#xA;&lt;h3 id=&#34;ml-microservices-architecture&#34;&gt;ML Microservices Architecture&lt;/h3&gt;&#xA;&lt;p&gt;Architected and deployed modular machine-learning microservices for feature selection, class imbalance handling, and model training. This microservices approach enables independent scaling and significantly reduces production failure risk by isolating components.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Python, Docker, REST APIs, Cloud Infrastructure&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Research Assistant at USC</title>
-      <link>http://localhost:1313/experiences/usc-research/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experiences/usc-research/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;As a Research Assistant at USC, I conducted cutting-edge research on privacy-preserving techniques for large language models. My work focused on enabling the benefits of powerful LLMs while protecting sensitive training data.&lt;/p&gt;&#xA;&lt;h2 id=&#34;research-focus-privacy-preserving-knowledge-distillation&#34;&gt;Research Focus: Privacy-Preserving Knowledge Distillation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-problem&#34;&gt;The Problem&lt;/h3&gt;&#xA;&lt;p&gt;Large language models like GPT-2 are trained on massive datasets that may contain sensitive information. When deploying these models or sharing them, there&amp;rsquo;s a risk of inadvertently leaking private data from the training set.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Quantitative Analyst Intern at Guangfa Futures</title>
-      <link>http://localhost:1313/experiences/guangfa-futures/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experiences/guangfa-futures/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;At Guangfa Futures, one of China&amp;rsquo;s leading futures brokerage firms, I worked as a Quantitative Analyst Intern. My role involved applying statistical and machine learning techniques to identify patterns in futures markets and support trading strategy decisions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-projects&#34;&gt;Key Projects&lt;/h2&gt;&#xA;&lt;h3 id=&#34;predictive-pattern-identification&#34;&gt;Predictive Pattern Identification&lt;/h3&gt;&#xA;&lt;p&gt;Applied multiple modeling approaches to identify predictive patterns in futures markets:&lt;/p&gt;&#xA;&lt;h4 id=&#34;regression-analysis&#34;&gt;Regression Analysis&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built linear and non-linear regression models&lt;/li&gt;&#xA;&lt;li&gt;Identified relationships between market indicators and price movements&lt;/li&gt;&#xA;&lt;li&gt;Validated models using out-of-sample testing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;time-series-analysis&#34;&gt;Time Series Analysis&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analyzed historical price data for temporal patterns&lt;/li&gt;&#xA;&lt;li&gt;Implemented ARIMA and related models for trend analysis&lt;/li&gt;&#xA;&lt;li&gt;Captured seasonality and cyclical patterns in commodity futures&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;k-means-clustering&#34;&gt;K-Means Clustering&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Segmented market conditions into distinct regimes&lt;/li&gt;&#xA;&lt;li&gt;Identified similar historical periods for pattern matching&lt;/li&gt;&#xA;&lt;li&gt;Used clustering to inform regime-switching trading strategies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;sensitivity-analysis&#34;&gt;Sensitivity Analysis&lt;/h3&gt;&#xA;&lt;p&gt;Performed comprehensive sensitivity analyses to:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Render Math With Mathjax</title>
-      <link>http://localhost:1313/blogs/math/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/math/</guid>
-      <description>&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;/h2&gt;&#xA;&lt;p&gt;Math equations can be rendered using &lt;a href=&#34;https://www.mathjax.org&#34;&gt;Mathjax&lt;/a&gt; syntax with AMS symbol support.&lt;/p&gt;&#xA;&lt;p&gt;Optionally enable this on a per-page basis by adding &lt;code&gt;mathjax: true&lt;/code&gt; to your frontmatter.&lt;/p&gt;&#xA;&lt;p&gt;Then, use &lt;code&gt;$$ ... $$&lt;/code&gt; on a line by itself to render a block equation:&lt;/p&gt;&#xA;&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;&#xA;&lt;p&gt;The raw version is:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Write in-line equations with &lt;code&gt;\\( ... \\)&lt;/code&gt; , like \( x^n / y \) . It&amp;rsquo;s easy!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Image Gallery</title>
-      <link>http://localhost:1313/gallery/</link>
-      <pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
-      <guid>http://localhost:1313/gallery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown Syntax</title>
-      <link>http://localhost:1313/blogs/markdown-syntax/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/markdown-syntax/</guid>
-      <description>&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;&#xA;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/blogs/emoji-support/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways. :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;emoji-support&#34;&gt;Emoji Support&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; function can be called directly in templates or &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/blogs/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;&#xA;&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;&#xA;&lt;li&gt;Duce pollice&lt;/li&gt;&#xA;&lt;li&gt;Eris modo&lt;/li&gt;&#xA;&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/blogs/rich-content/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#embedded&#34;&gt;Embedded Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/privacy/#configuration&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;&#xA;&lt;h2 id=&#34;x-simple-shortcode&#34;&gt;X Simple Shortcode&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by &lt;a href=&#34;https://twitter.com/gurusabarishh?ref_src=twsrc%5Etfw&#34;&gt;@gurusabarishh&lt;/a&gt;.&lt;a href=&#34;https://t.co/KwYcwfdy16&#34;&gt;https://t.co/KwYcwfdy16&lt;/a&gt;&lt;/p&gt;&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href=&#34;https://twitter.com/GoHugoIO/status/1315233626070503424?ref_src=twsrc%5Etfw&#34;&gt;October 11, 2020&lt;/a&gt;&lt;/blockquote&gt;&#xA;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&#xA;&lt;br&gt;&#xA;&lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; vimeo 146022717 &amp;gt;}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;&#xA;&#xA;      &lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/146022717?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;&lt;br&gt;&#xA;&lt;h2 id=&#34;youtube-simple-shortcode&#34;&gt;Youtube Simple Shortcode&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;br&gt;&#xA;&lt;h2 id=&#34;theme-custom-shortcodes&#34;&gt;Theme Custom Shortcodes&lt;/h2&gt;&#xA;&lt;p&gt;These shortcodes are not Hugo built-ins, but are provided by the theme.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Clara Zeng</title><link>https://clarazeng.com/</link><description>Recent content on Clara Zeng</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://clarazeng.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Analyst Intern at Bluebono</title><link>https://clarazeng.com/experiences/bluebono/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://clarazeng.com/experiences/bluebono/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;At Bluebono, I designed and implemented a comprehensive loan-to-value estimation and market-score evaluation pipeline for residential properties. This project covered the full data science lifecycle from project scoping and data acquisition to model deployment.&lt;/p&gt;
+&lt;h2 id="key-contributions"&gt;Key Contributions&lt;/h2&gt;
+&lt;h3 id="data-acquisition--vendor-management"&gt;Data Acquisition &amp;amp; Vendor Management&lt;/h3&gt;
+&lt;p&gt;Directed dataset acquisition efforts by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Evaluating multiple data vendors and their offerings&lt;/li&gt;
+&lt;li&gt;Negotiating contracts for optimal pricing and data access&lt;/li&gt;
+&lt;li&gt;Integrating a real-time data feed from the &lt;strong&gt;California Regional Multiple Listing Service (CRMLS)&lt;/strong&gt; via the Trestle API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This established a reliable, up-to-date data pipeline for property information across California.&lt;/p&gt;</description></item><item><title>Resume</title><link>https://clarazeng.com/resume/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://clarazeng.com/resume/</guid><description>&lt;h3 id="-download-pdf"&gt;&lt;a href="https://clarazeng.com/Clara_Zeng_resume.pdf"&gt;⬇ Download PDF&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;213-248-9142 | &lt;a href="mailto:qiang_zeng@berkeley.edu"&gt;qiang_zeng@berkeley.edu&lt;/a&gt; | Berkeley, CA | &lt;a href="https://www.linkedin.com/in/qiang-zeng-clara/"&gt;LinkedIn&lt;/a&gt; | &lt;a href="https://github.com/Clara-z"&gt;GitHub&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="experience"&gt;Experience&lt;/h2&gt;
+&lt;h3 id="cmind-ai--associate-data-scientist"&gt;Cmind AI | Associate Data Scientist&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;May 2024 – Sep 2025&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Architected and deployed modular machine-learning microservices for feature selection, class imbalance handling, and model training, enabling independent scaling and reducing production failure risk.&lt;/li&gt;
+&lt;li&gt;Enhanced the Earnings Per Share Surprise Prediction system by implementing automated retraining pipelines, training XGBoost, SVM, &amp;amp; RNN models on 15+ years of financial data to achieve 90% quarterly forecast accuracy.&lt;/li&gt;
+&lt;li&gt;Led development of a customizable end-to-end sentiment-analysis pipeline using FinBERT (financial domain) and OpenAI APIs for tailored Q&amp;amp;A with explanations; designed Oracle Cloud ingestion for cost-efficient legacy-system compatibility and AWS S3 storage to support a smooth migration to modern client-facing analytics workflows.&lt;/li&gt;
+&lt;li&gt;Leveraged MLflow for experiment tracking, model version control, and deployment monitoring, ensuring reproducibility, transparency, and compliance with internal MLOps standards.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="bluebono--data-analyst-intern"&gt;Bluebono | Data Analyst Intern&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;June – Aug 2025&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Associate Data Scientist at Cmind AI</title><link>https://clarazeng.com/experiences/cmind-ai/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://clarazeng.com/experiences/cmind-ai/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;At Cmind AI, I work as an Associate Data Scientist focusing on building production-ready machine learning systems for financial applications. My work spans from architecting ML microservices to developing end-to-end NLP pipelines.&lt;/p&gt;
+&lt;h2 id="key-projects"&gt;Key Projects&lt;/h2&gt;
+&lt;h3 id="ml-microservices-architecture"&gt;ML Microservices Architecture&lt;/h3&gt;
+&lt;p&gt;Architected and deployed modular machine-learning microservices for feature selection, class imbalance handling, and model training. This microservices approach enables independent scaling and significantly reduces production failure risk by isolating components.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Python, Docker, REST APIs, Cloud Infrastructure&lt;/p&gt;</description></item><item><title>Research Assistant at USC</title><link>https://clarazeng.com/experiences/usc-research/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://clarazeng.com/experiences/usc-research/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;As a Research Assistant at USC, I conducted cutting-edge research on privacy-preserving techniques for large language models. My work focused on enabling the benefits of powerful LLMs while protecting sensitive training data.&lt;/p&gt;
+&lt;h2 id="research-focus-privacy-preserving-knowledge-distillation"&gt;Research Focus: Privacy-Preserving Knowledge Distillation&lt;/h2&gt;
+&lt;h3 id="the-problem"&gt;The Problem&lt;/h3&gt;
+&lt;p&gt;Large language models like GPT-2 are trained on massive datasets that may contain sensitive information. When deploying these models or sharing them, there&amp;rsquo;s a risk of inadvertently leaking private data from the training set.&lt;/p&gt;</description></item><item><title>Quantitative Analyst Intern at Guangfa Futures</title><link>https://clarazeng.com/experiences/guangfa-futures/</link><pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate><guid>https://clarazeng.com/experiences/guangfa-futures/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;At Guangfa Futures, one of China&amp;rsquo;s leading futures brokerage firms, I worked as a Quantitative Analyst Intern. My role involved applying statistical and machine learning techniques to identify patterns in futures markets and support trading strategy decisions.&lt;/p&gt;
+&lt;h2 id="key-projects"&gt;Key Projects&lt;/h2&gt;
+&lt;h3 id="predictive-pattern-identification"&gt;Predictive Pattern Identification&lt;/h3&gt;
+&lt;p&gt;Applied multiple modeling approaches to identify predictive patterns in futures markets:&lt;/p&gt;
+&lt;h4 id="regression-analysis"&gt;Regression Analysis&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Built linear and non-linear regression models&lt;/li&gt;
+&lt;li&gt;Identified relationships between market indicators and price movements&lt;/li&gt;
+&lt;li&gt;Validated models using out-of-sample testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="time-series-analysis"&gt;Time Series Analysis&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Analyzed historical price data for temporal patterns&lt;/li&gt;
+&lt;li&gt;Implemented ARIMA and related models for trend analysis&lt;/li&gt;
+&lt;li&gt;Captured seasonality and cyclical patterns in commodity futures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="k-means-clustering"&gt;K-Means Clustering&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Segmented market conditions into distinct regimes&lt;/li&gt;
+&lt;li&gt;Identified similar historical periods for pattern matching&lt;/li&gt;
+&lt;li&gt;Used clustering to inform regime-switching trading strategies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="sensitivity-analysis"&gt;Sensitivity Analysis&lt;/h3&gt;
+&lt;p&gt;Performed comprehensive sensitivity analyses to:&lt;/p&gt;</description></item><item><title>Render Math With Mathjax</title><link>https://clarazeng.com/blogs/math/</link><pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate><guid>https://clarazeng.com/blogs/math/</guid><description>&lt;h2 id="mathjax"&gt;Mathjax&lt;/h2&gt;
+&lt;p&gt;Math equations can be rendered using &lt;a href="https://www.mathjax.org"&gt;Mathjax&lt;/a&gt; syntax with AMS symbol support.&lt;/p&gt;
+&lt;p&gt;Optionally enable this on a per-page basis by adding &lt;code&gt;mathjax: true&lt;/code&gt; to your frontmatter.&lt;/p&gt;
+&lt;p&gt;Then, use &lt;code&gt;$$ ... $$&lt;/code&gt; on a line by itself to render a block equation:&lt;/p&gt;
+&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;
+&lt;p&gt;The raw version is:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Write in-line equations with &lt;code&gt;\\( ... \\)&lt;/code&gt; , like \( x^n / y \) . It&amp;rsquo;s easy!&lt;/p&gt;</description></item><item><title>Image Gallery</title><link>https://clarazeng.com/gallery/</link><pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate><guid>https://clarazeng.com/gallery/</guid><description/></item><item><title>Markdown Syntax</title><link>https://clarazeng.com/blogs/markdown-syntax/</link><pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate><guid>https://clarazeng.com/blogs/markdown-syntax/</guid><description>&lt;h2 id="paragraph"&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description></item><item><title>Emoji Support</title><link>https://clarazeng.com/blogs/emoji-support/</link><pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate><guid>https://clarazeng.com/blogs/emoji-support/</guid><description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways. :zap:&lt;/p&gt;
+&lt;h2 id="emoji-support"&gt;Emoji Support&lt;/h2&gt;
+&lt;p&gt;The &lt;a href="https://gohugo.io/functions/emojify/"&gt;emojify&lt;/a&gt; function can be called directly in templates or &lt;a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes"&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href="https://gohugo.io/getting-started/configuration/"&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="http://www.emoji-cheat-sheet.com/"&gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;</description></item><item><title>Placeholder Text</title><link>https://clarazeng.com/blogs/placeholder-text/</link><pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate><guid>https://clarazeng.com/blogs/placeholder-text/</guid><description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
+&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
+&lt;li&gt;Duce pollice&lt;/li&gt;
+&lt;li&gt;Eris modo&lt;/li&gt;
+&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;</description></item><item><title>Rich Content</title><link>https://clarazeng.com/blogs/rich-content/</link><pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate><guid>https://clarazeng.com/blogs/rich-content/</guid><description>&lt;p&gt;Hugo ships with several &lt;a href="https://gohugo.io/content-management/shortcodes/#embedded"&gt;Embedded Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href="https://gohugo.io/about/privacy/#configuration"&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
+&lt;h2 id="x-simple-shortcode"&gt;X Simple Shortcode&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by &lt;a href="https://twitter.com/gurusabarishh?ref_src=twsrc%5Etfw"&gt;@gurusabarishh&lt;/a&gt;.&lt;a href="https://t.co/KwYcwfdy16"&gt;https://t.co/KwYcwfdy16&lt;/a&gt;&lt;/p&gt;&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href="https://twitter.com/GoHugoIO/status/1315233626070503424?ref_src=twsrc%5Etfw"&gt;October 11, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+
+&lt;br&gt;
+&lt;h2 id="vimeo-simple-shortcode"&gt;Vimeo Simple Shortcode&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{&amp;lt; vimeo 146022717 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+
+ &lt;div
+ style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe
+ src="https://player.vimeo.com/video/146022717?dnt=0"
+ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen"&gt;
+ &lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;br&gt;
+&lt;h2 id="youtube-simple-shortcode"&gt;Youtube Simple Shortcode&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;br&gt;
+&lt;h2 id="theme-custom-shortcodes"&gt;Theme Custom Shortcodes&lt;/h2&gt;
+&lt;p&gt;These shortcodes are not Hugo built-ins, but are provided by the theme.&lt;/p&gt;</description></item></channel></rss>
