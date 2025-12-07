@@ -1,7 +1,14 @@
-baseURL: "https://clara-zeng.com/"
+baseURL: "https://clarazeng.com/"
 languageCode: "en-us"
 title: "Clara Zeng"
 theme: hugo-profile
+
+menu:
+  main:
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 40
 
 outputs:
   home:
@@ -49,6 +56,9 @@ params:
       disableEducation: false
       disableProjects: false
       disableContact: false
+    customMenus:
+      - name: "Resume"
+        url: "/resume/"
 
   # Hero Section
   hero:
@@ -63,8 +73,8 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/resume.pdf"
-      download: true
+      url: "/resume/"
+      download: false
       newPage: false
     socialLinks:
       fontAwesomeIcons:
