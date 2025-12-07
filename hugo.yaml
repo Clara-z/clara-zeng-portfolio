@@ -3,13 +3,6 @@ languageCode: "en-us"
 title: "Clara Zeng"
 theme: hugo-profile
 
-menu:
-  main:
-    - identifier: resume
-      name: Resume
-      url: /resume/
-      weight: 40
-
 outputs:
   home:
     - "HTML"
@@ -56,9 +49,6 @@ params:
       disableEducation: false
       disableProjects: false
       disableContact: false
-    customMenus:
-      - name: "Resume"
-        url: "/resume/"
 
   # Hero Section
   hero:
@@ -137,85 +127,87 @@ params:
     items:
       # ===== WORK EXPERIENCE =====
       - title: "Associate Data Scientist @ Cmind AI"
-        content: "Building production ML systems for financial applications. Architected microservices for feature selection and model training. Achieved 90% accuracy on EPS prediction using XGBoost, SVM, and RNN models."
+        content: "ML microservices for financial predictions with 90% forecast accuracy."
+        image: /images/projects/cmind-ai.png
         badges:
           - "Work Experience"
           - "MLOps"
           - "Financial ML"
-          - "NLP"
         links:
           - icon: fas fa-arrow-right
             url: "/experiences/cmind-ai/"
 
       - title: "Data Analyst Intern @ Bluebono"
-        content: "Designed loan-to-value estimation pipeline for residential properties. Processed 11.3M property records with 1,000+ features. Reduced dimensionality by 65% using unsupervised clustering."
+        content: "Loan-to-value pipeline processing 11.3M property records."
+        image: /images/projects/bluebono.png
         badges:
           - "Work Experience"
           - "Real Estate Analytics"
-          - "Data Engineering"
         links:
           - icon: fas fa-arrow-right
             url: "/experiences/bluebono/"
 
       - title: "Research Assistant @ USC"
-        content: "Researched privacy-preserving knowledge distillation for LLMs. Integrated Differentially Private SGD to protect training data while maintaining model performance."
+        content: "Privacy-preserving knowledge distillation for large language models."
+        image: /images/projects/usclab.png
         badges:
           - "Work Experience"
           - "Privacy ML"
           - "LLMs"
-          - "Research"
         links:
           - icon: fas fa-arrow-right
             url: "/experiences/usc-research/"
 
       - title: "Quantitative Analyst Intern @ Guangfa Futures"
-        content: "Applied regression, time-series, and K-Means clustering to identify predictive patterns in futures markets. Delivered forecasting models and reports for trading strategy decisions."
+        content: "Time-series forecasting models for futures market predictions."
+        image: /images/projects/guangfa.png
         badges:
           - "Work Experience"
           - "Quant Finance"
-          - "Time Series"
         links:
           - icon: fas fa-arrow-right
             url: "/experiences/guangfa-futures/"
 
       # ===== PROJECTS =====
       - title: "Tesla Global Sourcing Strategy Competition"
-        content: "Advanced to semi-finals among 40+ teams, building a cost-optimization model analyzing $200M+ sourcing decisions and quantifying $18.7M in operational flexibility value."
+        content: "Cost-optimization model analyzing $200M+ sourcing decisions."
+        image: /images/projects/tesla.png
         badges:
           - "Project"
           - "Supply Chain"
-          - "Monte Carlo Simulation"
+          - "Monte Carlo"
 
       - title: "AI-Based Career Advisor"
-        content: "Interactive AI tool leveraging GPT APIs and Llama3 with 1.3M+ dataset entries for personalized career path recommendations and real-time skill gap analysis."
+        content: "GPT-powered career recommendations with 1.3M+ dataset entries."
+        image: /images/projects/aicareer.png
         badges:
           - "Project"
           - "LLMs"
-          - "Python"
           - "Streamlit"
 
       - title: "Meridio – AI Educational Gaming Platform"
-        content: "GPT-powered conversational system for a web-based educational platform, helping middle school students engage with math through AI-driven discussions."
+        content: "AI tutoring system helping students learn math interactively."
+        image: /images/projects/aieducation.png
         badges:
           - "Project"
           - "OpenAI API"
           - "React.js"
-          - "Node.js"
 
       - title: "Hate Speech Detection"
-        content: "Built and compared ML models on 40,000+ social media samples, optimizing fine-tuned BERT to achieve 79.5% test accuracy with comprehensive error analysis."
+        content: "Fine-tuned BERT achieving 79.5% accuracy on 40K+ samples."
+        image: /images/projects/hatespeech.png
         badges:
           - "Project"
           - "BERT"
           - "NLP"
 
       - title: "USC Study Room Rating App"
-        content: "Full-stack web application serving 5,000+ USC students to crowdsource ratings for 100+ campus study locations with sorting, filtering, and reservation features."
+        content: "Full-stack app serving 5,000+ students for study space reviews."
+        image: /images/projects/studyroom.png
         badges:
           - "Project"
           - "React.js"
           - "Java"
-          - "MySQL"
 
   # Contact Section
   contact:
