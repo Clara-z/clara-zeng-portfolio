@@ -1,25 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Forecasting on Clara Zeng</title><link>https://clarazeng.com/tags/forecasting/</link><description>Recent content in Forecasting on Clara Zeng</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://clarazeng.com/tags/forecasting/index.xml" rel="self" type="application/rss+xml"/><item><title>Quantitative Analyst Intern at Guangfa Futures</title><link>https://clarazeng.com/experiences/guangfa-futures/</link><pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate><guid>https://clarazeng.com/experiences/guangfa-futures/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;At Guangfa Futures, one of China&amp;rsquo;s leading futures brokerage firms, I worked as a Quantitative Analyst Intern. My role involved applying statistical and machine learning techniques to identify patterns in futures markets and support trading strategy decisions.&lt;/p&gt;
-&lt;h2 id="key-projects"&gt;Key Projects&lt;/h2&gt;
-&lt;h3 id="predictive-pattern-identification"&gt;Predictive Pattern Identification&lt;/h3&gt;
-&lt;p&gt;Applied multiple modeling approaches to identify predictive patterns in futures markets:&lt;/p&gt;
-&lt;h4 id="regression-analysis"&gt;Regression Analysis&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Built linear and non-linear regression models&lt;/li&gt;
-&lt;li&gt;Identified relationships between market indicators and price movements&lt;/li&gt;
-&lt;li&gt;Validated models using out-of-sample testing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="time-series-analysis"&gt;Time Series Analysis&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Analyzed historical price data for temporal patterns&lt;/li&gt;
-&lt;li&gt;Implemented ARIMA and related models for trend analysis&lt;/li&gt;
-&lt;li&gt;Captured seasonality and cyclical patterns in commodity futures&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="k-means-clustering"&gt;K-Means Clustering&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Segmented market conditions into distinct regimes&lt;/li&gt;
-&lt;li&gt;Identified similar historical periods for pattern matching&lt;/li&gt;
-&lt;li&gt;Used clustering to inform regime-switching trading strategies&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="sensitivity-analysis"&gt;Sensitivity Analysis&lt;/h3&gt;
-&lt;p&gt;Performed comprehensive sensitivity analyses to:&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forecasting on Clara Zeng</title>
+    <link>http://localhost:1313/tags/forecasting/</link>
+    <description>Recent content in Forecasting on Clara Zeng</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantitative Analyst Intern at Guangfa Futures</title>
+      <link>http://localhost:1313/experiences/guangfa-futures/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/guangfa-futures/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;At Guangfa Futures, one of China&amp;rsquo;s leading futures brokerage firms, I worked as a Quantitative Analyst Intern. My role involved applying statistical and machine learning techniques to identify patterns in futures markets and support trading strategy decisions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-projects&#34;&gt;Key Projects&lt;/h2&gt;&#xA;&lt;h3 id=&#34;predictive-pattern-identification&#34;&gt;Predictive Pattern Identification&lt;/h3&gt;&#xA;&lt;p&gt;Applied multiple modeling approaches to identify predictive patterns in futures markets:&lt;/p&gt;&#xA;&lt;h4 id=&#34;regression-analysis&#34;&gt;Regression Analysis&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built linear and non-linear regression models&lt;/li&gt;&#xA;&lt;li&gt;Identified relationships between market indicators and price movements&lt;/li&gt;&#xA;&lt;li&gt;Validated models using out-of-sample testing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;time-series-analysis&#34;&gt;Time Series Analysis&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analyzed historical price data for temporal patterns&lt;/li&gt;&#xA;&lt;li&gt;Implemented ARIMA and related models for trend analysis&lt;/li&gt;&#xA;&lt;li&gt;Captured seasonality and cyclical patterns in commodity futures&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;k-means-clustering&#34;&gt;K-Means Clustering&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Segmented market conditions into distinct regimes&lt;/li&gt;&#xA;&lt;li&gt;Identified similar historical periods for pattern matching&lt;/li&gt;&#xA;&lt;li&gt;Used clustering to inform regime-switching trading strategies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;sensitivity-analysis&#34;&gt;Sensitivity Analysis&lt;/h3&gt;&#xA;&lt;p&gt;Performed comprehensive sensitivity analyses to:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
