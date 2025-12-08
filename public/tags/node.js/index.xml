@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node.js on Clara Zeng</title>
+    <link>http://localhost:1313/tags/node.js/</link>
+    <description>Recent content in Node.js on Clara Zeng</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meridio – AI-Driven Educational Gaming Platform</title>
+      <link>http://localhost:1313/experiences/meridio-education/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/meridio-education/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Developed a GPT-powered conversational system for Meridio, a web-based educational platform designed to help middle school students engage with math through AI-driven discussions and interactive simulations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-vision&#34;&gt;The Vision&lt;/h2&gt;&#xA;&lt;p&gt;Traditional math education often fails to engage students. Meridio transforms learning by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Creating immersive, game-like environments for learning&lt;/li&gt;&#xA;&lt;li&gt;Using AI to provide personalized tutoring at scale&lt;/li&gt;&#xA;&lt;li&gt;Making math concepts tangible through interactive simulations&lt;/li&gt;&#xA;&lt;li&gt;Fostering collaboration among students in virtual spaces&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-contributions&#34;&gt;My Contributions&lt;/h2&gt;&#xA;&lt;h3 id=&#34;gpt-powered-conversational-system&#34;&gt;GPT-Powered Conversational System&lt;/h3&gt;&#xA;&lt;p&gt;Developed the core AI interaction layer featuring:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

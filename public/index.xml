@@ -6,14 +6,35 @@
     <description>Recent content on Clara Zeng</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tesla Global Sourcing Strategy Competition</title>
+      <link>http://localhost:1313/experiences/tesla-competition/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/tesla-competition/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Advanced to semi-finals among 40+ teams in the Tesla Global Sourcing Strategy Case Competition, presenting supply chain optimization strategies to Tesla executives.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;&#xA;&lt;p&gt;Tesla faced a critical decision regarding a key vehicle component affected by 25% tariff impacts. The challenge was to optimize sourcing across three manufacturing locations:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;United States&lt;/strong&gt; - Domestic production&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mexico&lt;/strong&gt; - USMCA trade benefits&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;China&lt;/strong&gt; - Established supply chain infrastructure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-approach&#34;&gt;My Approach&lt;/h2&gt;&#xA;&lt;h3 id=&#34;cost-optimization-model&#34;&gt;Cost-Optimization Model&lt;/h3&gt;&#xA;&lt;p&gt;Built a comprehensive cost-optimization model analyzing a &lt;strong&gt;$200M+ sourcing decision&lt;/strong&gt; across multiple scenarios:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Data Analyst Intern at Bluebono</title>
       <link>http://localhost:1313/experiences/bluebono/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experiences/bluebono/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;At Bluebono, I designed and implemented a comprehensive loan-to-value estimation and market-score evaluation pipeline for residential properties. This project covered the full data science lifecycle from project scoping and data acquisition to model deployment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;&#xA;&lt;h3 id=&#34;data-acquisition--vendor-management&#34;&gt;Data Acquisition &amp;amp; Vendor Management&lt;/h3&gt;&#xA;&lt;p&gt;Directed dataset acquisition efforts by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Evaluating multiple data vendors and their offerings&lt;/li&gt;&#xA;&lt;li&gt;Negotiating contracts for optimal pricing and data access&lt;/li&gt;&#xA;&lt;li&gt;Integrating a real-time data feed from the &lt;strong&gt;California Regional Multiple Listing Service (CRMLS)&lt;/strong&gt; via the Trestle API&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This established a reliable, up-to-date data pipeline for property information across California.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI-Based Career Advisor</title>
+      <link>http://localhost:1313/experiences/ai-career-advisor/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/ai-career-advisor/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Designed and developed an interactive AI-based tool to help users plan and explore career paths by leveraging their skills and interests. The application provides real-time, actionable recommendations with direct links to learning resources.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;&#xA;&lt;p&gt;Career planning is challenging, especially for students and early-career professionals who:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Don&amp;rsquo;t know which career paths align with their skills&lt;/li&gt;&#xA;&lt;li&gt;Struggle to identify skill gaps for target roles&lt;/li&gt;&#xA;&lt;li&gt;Need personalized guidance but can&amp;rsquo;t afford career coaches&lt;/li&gt;&#xA;&lt;li&gt;Want actionable next steps, not generic advice&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;h3 id=&#34;interactive-career-planning-tool&#34;&gt;Interactive Career Planning Tool&lt;/h3&gt;&#xA;&lt;p&gt;Built a &lt;strong&gt;Streamlit-based UI&lt;/strong&gt; that allows users to:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Meridio – AI-Driven Educational Gaming Platform</title>
+      <link>http://localhost:1313/experiences/meridio-education/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/meridio-education/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Developed a GPT-powered conversational system for Meridio, a web-based educational platform designed to help middle school students engage with math through AI-driven discussions and interactive simulations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-vision&#34;&gt;The Vision&lt;/h2&gt;&#xA;&lt;p&gt;Traditional math education often fails to engage students. Meridio transforms learning by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Creating immersive, game-like environments for learning&lt;/li&gt;&#xA;&lt;li&gt;Using AI to provide personalized tutoring at scale&lt;/li&gt;&#xA;&lt;li&gt;Making math concepts tangible through interactive simulations&lt;/li&gt;&#xA;&lt;li&gt;Fostering collaboration among students in virtual spaces&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-contributions&#34;&gt;My Contributions&lt;/h2&gt;&#xA;&lt;h3 id=&#34;gpt-powered-conversational-system&#34;&gt;GPT-Powered Conversational System&lt;/h3&gt;&#xA;&lt;p&gt;Developed the core AI interaction layer featuring:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resume</title>
@@ -37,6 +58,13 @@
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;As a Research Assistant at USC, I conducted cutting-edge research on privacy-preserving techniques for large language models. My work focused on enabling the benefits of powerful LLMs while protecting sensitive training data.&lt;/p&gt;&#xA;&lt;h2 id=&#34;research-focus-privacy-preserving-knowledge-distillation&#34;&gt;Research Focus: Privacy-Preserving Knowledge Distillation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-problem&#34;&gt;The Problem&lt;/h3&gt;&#xA;&lt;p&gt;Large language models like GPT-2 are trained on massive datasets that may contain sensitive information. When deploying these models or sharing them, there&amp;rsquo;s a risk of inadvertently leaking private data from the training set.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Hate Speech Detection Project</title>
+      <link>http://localhost:1313/experiences/hate-speech-detection/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/hate-speech-detection/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Built and compared machine learning models for automated hate speech detection on social media, implementing both traditional ML approaches and state-of-the-art transformer models.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;&#xA;&lt;p&gt;Hate speech on social media platforms:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Harms targeted individuals and communities&lt;/li&gt;&#xA;&lt;li&gt;Spreads rapidly and is difficult to moderate manually&lt;/li&gt;&#xA;&lt;li&gt;Requires automated detection at scale&lt;/li&gt;&#xA;&lt;li&gt;Needs nuanced understanding of context and language&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;&#xA;&lt;p&gt;Worked with a dataset of &lt;strong&gt;40,000+ social media text samples&lt;/strong&gt; containing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hate speech examples&lt;/li&gt;&#xA;&lt;li&gt;Offensive but non-hateful content&lt;/li&gt;&#xA;&lt;li&gt;Neutral content&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The multi-class nature of the problem required careful handling of class boundaries and imbalanced distributions.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Quantitative Analyst Intern at Guangfa Futures</title>
       <link>http://localhost:1313/experiences/guangfa-futures/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
@@ -49,6 +77,13 @@
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
       <guid>http://localhost:1313/blogs/math/</guid>
       <description>&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;/h2&gt;&#xA;&lt;p&gt;Math equations can be rendered using &lt;a href=&#34;https://www.mathjax.org&#34;&gt;Mathjax&lt;/a&gt; syntax with AMS symbol support.&lt;/p&gt;&#xA;&lt;p&gt;Optionally enable this on a per-page basis by adding &lt;code&gt;mathjax: true&lt;/code&gt; to your frontmatter.&lt;/p&gt;&#xA;&lt;p&gt;Then, use &lt;code&gt;$$ ... $$&lt;/code&gt; on a line by itself to render a block equation:&lt;/p&gt;&#xA;&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;&#xA;&lt;p&gt;The raw version is:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Write in-line equations with &lt;code&gt;\\( ... \\)&lt;/code&gt; , like \( x^n / y \) . It&amp;rsquo;s easy!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>USC Study Room Rating Web Application</title>
+      <link>http://localhost:1313/experiences/usc-study-room/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/usc-study-room/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Built a full-stack web application serving &lt;strong&gt;5,000+ USC students&lt;/strong&gt; to crowdsource ratings and reviews for &lt;strong&gt;100+ campus study locations&lt;/strong&gt;. The platform helps students find the perfect study spot based on community feedback.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;&#xA;&lt;p&gt;USC students faced challenges finding good study spaces:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Information about study locations was scattered&lt;/li&gt;&#xA;&lt;li&gt;No centralized platform for reviews and ratings&lt;/li&gt;&#xA;&lt;li&gt;Difficult to know which spaces were quiet, had outlets, or were crowded&lt;/li&gt;&#xA;&lt;li&gt;No way to reserve spaces in advance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;h3 id=&#34;crowdsourced-study-space-reviews&#34;&gt;Crowdsourced Study Space Reviews&lt;/h3&gt;&#xA;&lt;p&gt;Created a platform where students can:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Image Gallery</title>

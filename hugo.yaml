@@ -184,6 +184,9 @@ params:
           - "Project"
           - "Supply Chain"
           - "Monte Carlo"
+        links:
+          - icon: fas fa-arrow-right
+            url: "/experiences/tesla-competition/"
 
       - title: "AI-Based Career Advisor"
         content: "GPT-powered career recommendations with 1.3M+ dataset entries."
@@ -193,6 +196,9 @@ params:
           - "Project"
           - "LLMs"
           - "Streamlit"
+        links:
+          - icon: fas fa-arrow-right
+            url: "/experiences/ai-career-advisor/"
 
 
       - title: "Meridio – AI Educational Gaming Platform"
@@ -203,6 +209,10 @@ params:
           - "Project"
           - "OpenAI API"
           - "React.js"
+        links:
+          - icon: fas fa-arrow-right
+            url: "/experiences/meridio-education/"
+
 
       - title: "Hate Speech Detection"
         content: "Fine-tuned BERT achieving 79.5% accuracy on 40K+ samples."
@@ -211,6 +221,9 @@ params:
           - "Project"
           - "BERT"
           - "NLP"
+        links:
+          - icon: fas fa-arrow-right
+            url: "/experiences/hate-speech-detection/"
 
       - title: "USC Study Room Rating App"
         content: "Full-stack app serving 5,000+ students for study space reviews."
@@ -219,6 +232,9 @@ params:
           - "Project"
           - "React.js"
           - "Java"
+        links:
+          - icon: fas fa-arrow-right
+            url: "/experiences/usc-study-room/"
 
   # Contact Section
   contact:

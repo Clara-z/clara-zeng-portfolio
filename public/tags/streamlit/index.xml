@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Streamlit on Clara Zeng</title>
+    <link>http://localhost:1313/tags/streamlit/</link>
+    <description>Recent content in Streamlit on Clara Zeng</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/streamlit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI-Based Career Advisor</title>
+      <link>http://localhost:1313/experiences/ai-career-advisor/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/ai-career-advisor/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Designed and developed an interactive AI-based tool to help users plan and explore career paths by leveraging their skills and interests. The application provides real-time, actionable recommendations with direct links to learning resources.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;&#xA;&lt;p&gt;Career planning is challenging, especially for students and early-career professionals who:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Don&amp;rsquo;t know which career paths align with their skills&lt;/li&gt;&#xA;&lt;li&gt;Struggle to identify skill gaps for target roles&lt;/li&gt;&#xA;&lt;li&gt;Need personalized guidance but can&amp;rsquo;t afford career coaches&lt;/li&gt;&#xA;&lt;li&gt;Want actionable next steps, not generic advice&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;h3 id=&#34;interactive-career-planning-tool&#34;&gt;Interactive Career Planning Tool&lt;/h3&gt;&#xA;&lt;p&gt;Built a &lt;strong&gt;Streamlit-based UI&lt;/strong&gt; that allows users to:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on Clara Zeng</title>
+    <link>http://localhost:1313/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Clara Zeng</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hate Speech Detection Project</title>
+      <link>http://localhost:1313/experiences/hate-speech-detection/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/hate-speech-detection/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Built and compared machine learning models for automated hate speech detection on social media, implementing both traditional ML approaches and state-of-the-art transformer models.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;&#xA;&lt;p&gt;Hate speech on social media platforms:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Harms targeted individuals and communities&lt;/li&gt;&#xA;&lt;li&gt;Spreads rapidly and is difficult to moderate manually&lt;/li&gt;&#xA;&lt;li&gt;Requires automated detection at scale&lt;/li&gt;&#xA;&lt;li&gt;Needs nuanced understanding of context and language&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;&#xA;&lt;p&gt;Worked with a dataset of &lt;strong&gt;40,000+ social media text samples&lt;/strong&gt; containing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hate speech examples&lt;/li&gt;&#xA;&lt;li&gt;Offensive but non-hateful content&lt;/li&gt;&#xA;&lt;li&gt;Neutral content&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The multi-class nature of the problem required careful handling of class boundaries and imbalanced distributions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
