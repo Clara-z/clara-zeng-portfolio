@@ -77,7 +77,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.png?v=2"
     content: |-
       I'm an early-career Data Scientist and AI Engineer with a strong foundation in machine learning, natural language processing, and full-stack development. I recently graduated from USC with a degree in Computer Science and Applied Mathematics (GPA: 3.94/4.0), and I'm currently pursuing my Master's in Analytics at UC Berkeley.
 
@@ -172,6 +172,7 @@ params:
       - title: "Tesla Global Sourcing Strategy Competition"
         content: "Cost-optimization model analyzing $200M+ sourcing decisions."
         image: /images/projects/tesla.png
+        imagePosition: "center top"    # <-- ADD THIS LINE
         badges:
           - "Project"
           - "Supply Chain"
@@ -180,14 +181,17 @@ params:
       - title: "AI-Based Career Advisor"
         content: "GPT-powered career recommendations with 1.3M+ dataset entries."
         image: /images/projects/aicareer.png
+        imagePosition: "right center"     # <-- ADD THIS LINE
         badges:
           - "Project"
           - "LLMs"
           - "Streamlit"
 
+
       - title: "Meridio – AI Educational Gaming Platform"
         content: "AI tutoring system helping students learn math interactively."
         image: /images/projects/aieducation.png
+        imagePosition: "right center"     # <-- ADD THIS LINE
         badges:
           - "Project"
           - "OpenAI API"
@@ -215,7 +219,7 @@ params:
     title: "Get In Touch"
     content: "I'm currently open to 2026 new-grad roles in Data Science, AI/ML Engineering, and Data Engineering. Feel free to reach out!"
     btnName: "Email Me"
-    btnLink: "mailto:your-email@example.com"
+    btnLink: "qiang_zeng@berkeley.edu"
 
   # Footer
   footer:
@@ -238,3 +242,5 @@ params:
       content: "min read"
     scrollprogress:
       enable: true
+
+  
