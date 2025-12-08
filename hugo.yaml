@@ -9,7 +9,7 @@ menu:
       name: Resume
       url: /resume/
       weight: 50
-      
+
 outputs:
   home:
     - "HTML"
@@ -226,7 +226,7 @@ params:
     title: "Get In Touch"
     content: "I'm currently open to 2026 new-grad roles in Data Science, AI/ML Engineering, and Data Engineering. Feel free to reach out!"
     btnName: "Email Me"
-    btnLink: "qiang_zeng@berkeley.edu"
+    btnLink: "https://mail.google.com/mail/?view=cm&fs=1&to=qiang_zeng@berkeley.edu"
 
   # Footer
   footer:
