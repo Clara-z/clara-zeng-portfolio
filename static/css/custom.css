@@ -1,0 +1,10 @@
+/* Show About image on mobile */
+@media (max-width: 768px) {
+  #about .about-image,
+  #about img {
+    display: block !important;
+    width: 100% !important;
+    max-width: 250px;
+    margin: 0 auto 20px auto;
+  }
+}
