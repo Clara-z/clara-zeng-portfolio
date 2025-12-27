@@ -31,7 +31,7 @@ markup:
 params:
   title: "Clara Zeng"
   description: "Early-Career Data Scientist & AI Engineer"
-  favicon: "/favicon.ico"
+  # favicon: "/favicon.ico"
 
   useBootstrapCDN: false
   animate: true
@@ -176,10 +176,21 @@ params:
             url: "/experiences/guangfa-futures/"
 
       # ===== PROJECTS =====
+      - title: "Google x Berkeley Analytics Hackathon"
+        content: "Top 3 Finalist - Diagnosed 3x churn spike, projected $23M retention impact."
+        image: /images/projects/google.png   
+        badges:
+          - "Hackathon"
+          - "Business Analytics"
+          - "Python"
+        links:
+          - icon: fas fa-arrow-right
+            url: "/experiences/google-hackathon/" 
+
       - title: "Tesla Global Sourcing Strategy Competition"
         content: "Cost-optimization model analyzing $200M+ sourcing decisions."
         image: /images/projects/tesla.png
-        imagePosition: "center top"    # <-- ADD THIS LINE
+        imagePosition: "center top"   
         badges:
           - "Project"
           - "Supply Chain"
@@ -246,6 +257,7 @@ params:
 
   # Footer
   footer:
+    showBrandLogo: false
     recentPosts:
       path: "blogs"
       count: 3
