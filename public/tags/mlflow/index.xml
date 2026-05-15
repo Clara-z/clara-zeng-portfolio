@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MLflow on Clara Zeng</title>
+    <link>http://localhost:1313/tags/mlflow/</link>
+    <description>Recent content in MLflow on Clara Zeng</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mlflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Associate Data Scientist at Cmind AI</title>
+      <link>http://localhost:1313/experiences/cmind-ai/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/cmind-ai/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;&#xA;&lt;p&gt;As an Associate Data Scientist at Cmind AI, I worked on AI systems that supported &lt;strong&gt;earnings prediction and financial text analysis&lt;/strong&gt;. The work combined data science, software engineering, MLOps, and analyst-facing product thinking — the goal was not only to train accurate models, but to build workflows that could ingest financial data, generate predictions, explain signals, and support recurring analysis.&lt;/p&gt;&#xA;&lt;p&gt;Cmind publishes regular earnings prediction and market-analysis updates, so the technical work had to fit a real business rhythm: new financial data arrived continuously, earnings calendars changed, and analysts needed outputs that were reproducible, interpretable, and useful for decision-making.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

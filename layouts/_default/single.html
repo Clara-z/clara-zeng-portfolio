@@ -28,7 +28,7 @@
                 {{ .Params.author }}
                 <small>|</small>
               {{ end }}
-              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
+              {{ if .Params.duration }}{{ .Params.duration }}{{ else }}{{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}{{ end }}
 
               {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
               <span id="readingTime">
@@ -79,23 +79,18 @@
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text={{ .Params.description }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
+                  <a target="_blank" href="https://github.com/Clara-z">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/in/qiang-zeng-clara/">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}&hashtags={{ delimit .Params.tags "," }}'>
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
-                    <i class="fab fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject={{ .Title }}&amp;body={{ .Site.Params.terms.emailText | default "Check out this site" }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}'>
-                    <i class="fa fa-envelope"></i>
+                  <a href="mailto:qiang_zeng@berkeley.edu">
+                    <i class="fas fa-envelope"></i>
                   </a>
                 </li>
               </ul>

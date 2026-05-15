@@ -2,6 +2,7 @@
 title: "Tesla Global Sourcing Strategy Competition"
 date: 2025-09-01
 draft: false
+duration: "Sep 2025"
 tags: ["Supply Chain", "Cost Optimization", "Monte Carlo Simulation"]
 ---
 

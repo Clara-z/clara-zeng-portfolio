@@ -31,24 +31,24 @@
 <meta property="og:url" content="http://localhost:1313/experiences/bluebono/">
   <meta property="og:site_name" content="Clara Zeng">
   <meta property="og:title" content="Data Analyst Intern at Bluebono">
-  <meta property="og:description" content="Overview At Bluebono, I designed and implemented a comprehensive loan-to-value estimation and market-score evaluation pipeline for residential properties. This project covered the full data science lifecycle from project scoping and data acquisition to model deployment.
-Key Contributions Data Acquisition &amp; Vendor Management Directed dataset acquisition efforts by:
-Evaluating multiple data vendors and their offerings Negotiating contracts for optimal pricing and data access Integrating a real-time data feed from the California Regional Multiple Listing Service (CRMLS) via the Trestle API This established a reliable, up-to-date data pipeline for property information across California.">
+  <meta property="og:description" content="Overview During my Data Analyst internship at Bluebono, I worked on a residential real estate analytics project connecting local housing market conditions to loan-to-value (LTV) decision-making.
+The core insight: property risk is not only about the property itself. A similar home can carry different lending risk depending on whether it sits in a liquid, competitive ZIP code or a slower market with rising inventory and longer days on market. My work focused on turning that local market context into a cleaner, more interpretable signal.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="experiences">
-    <meta property="article:published_time" content="2025-06-01T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-06-01T00:00:00+00:00">
+    <meta property="article:published_time" content="2025-08-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-08-01T00:00:00+00:00">
     <meta property="article:tag" content="Real Estate Analytics">
     <meta property="article:tag" content="Data Engineering">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Machine Learning">
     <meta property="article:tag" content="Feature Engineering">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Data Analyst Intern at Bluebono">
-  <meta name="twitter:description" content="Overview At Bluebono, I designed and implemented a comprehensive loan-to-value estimation and market-score evaluation pipeline for residential properties. This project covered the full data science lifecycle from project scoping and data acquisition to model deployment.
-Key Contributions Data Acquisition &amp; Vendor Management Directed dataset acquisition efforts by:
-Evaluating multiple data vendors and their offerings Negotiating contracts for optimal pricing and data access Integrating a real-time data feed from the California Regional Multiple Listing Service (CRMLS) via the Trestle API This established a reliable, up-to-date data pipeline for property information across California.">
+  <meta name="twitter:description" content="Overview During my Data Analyst internship at Bluebono, I worked on a residential real estate analytics project connecting local housing market conditions to loan-to-value (LTV) decision-making.
+The core insight: property risk is not only about the property itself. A similar home can carry different lending risk depending on whether it sits in a liquid, competitive ZIP code or a slower market with rising inventory and longer days on market. My work focused on turning that local market context into a cleaner, more interpretable signal.">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -229,7 +229,7 @@ Data Analyst Intern at Bluebono | Clara Zeng
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/resume/" title="">
+                        <a class="nav-link" href="/clara_zeng_resume_swe.pdf" title="" target="_blank">
                             
                             Resume
                         </a>
@@ -282,7 +282,7 @@ Data Analyst Intern at Bluebono | Clara Zeng
             <h1 class="text-center mb-4">Data Analyst Intern at Bluebono</h1>
             <div class="text-center">
               
-              Jun 1, 2025
+              Jun – Aug 2025
 
               
               <span id="readingTime">
@@ -294,40 +294,69 @@ Data Analyst Intern at Bluebono | Clara Zeng
           
           <article class="page-content  p-2">
           <h2 id="overview">Overview</h2>
-<p>At Bluebono, I designed and implemented a comprehensive loan-to-value estimation and market-score evaluation pipeline for residential properties. This project covered the full data science lifecycle from project scoping and data acquisition to model deployment.</p>
-<h2 id="key-contributions">Key Contributions</h2>
-<h3 id="data-acquisition--vendor-management">Data Acquisition &amp; Vendor Management</h3>
-<p>Directed dataset acquisition efforts by:</p>
+<p>During my Data Analyst internship at Bluebono, I worked on a residential real estate analytics project connecting local housing market conditions to loan-to-value (LTV) decision-making.</p>
+<p>The core insight: property risk is not only about the property itself. A similar home can carry different lending risk depending on whether it sits in a liquid, competitive ZIP code or a slower market with rising inventory and longer days on market. My work focused on turning that local market context into a cleaner, more interpretable signal.</p>
+<hr>
+<h2 id="what-i-built">What I Built</h2>
+<p>An end-to-end data pipeline for ZIP-level residential property evaluation. The pipeline pulled together large-scale housing market data, cleaned and validated it, engineered market indicators, and fed a scoring framework that adjusts LTV recommendations by local market strength.</p>
+<p>The project touched both data science and software engineering:</p>
 <ul>
-<li>Evaluating multiple data vendors and their offerings</li>
-<li>Negotiating contracts for optimal pricing and data access</li>
-<li>Integrating a real-time data feed from the <strong>California Regional Multiple Listing Service (CRMLS)</strong> via the Trestle API</li>
+<li><strong>Data scale:</strong> 11.3M+ raw property and market records across 1,000+ California ZIP codes, with history from ~2012 through 2025</li>
+<li><strong>Market indicators studied:</strong> median sale price, price per square foot, homes sold, pending sales, new listings, inventory, days on market, sale-to-list ratio, off-market velocity</li>
+<li><strong>Engineering:</strong> API-based property data ingestion via Trestle/CoreLogic, comparable-property matching logic</li>
 </ul>
-<p>This established a reliable, up-to-date data pipeline for property information across California.</p>
-<h3 id="large-scale-data-engineering">Large-Scale Data Engineering</h3>
-<p>Engineered and processed a massive dataset consisting of:</p>
+<p>The goal was not a black-box valuation model — it was a defensible framework that could explain why one local market supports a higher LTV cap while another should be treated more conservatively.</p>
+<hr>
+<h2 id="pipeline-details">Pipeline Details</h2>
+<p><strong>Data preparation</strong> was the first challenge. Real estate data arrived in multiple formats: monthly market files, property records, percentage fields, price strings, dates, and region identifiers. I wrote cleaning logic to normalize columns, convert prices and percentages to numeric values, align monthly time periods, and filter to relevant California markets.</p>
+<p><strong>Feature engineering</strong> focused on signals that describe market strength from several angles:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Dimension</th>
+          <th>Features</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Price movement</td>
+          <td>Median sale price, price/sqft, YoY change</td>
+      </tr>
+      <tr>
+          <td>Liquidity</td>
+          <td>Homes sold, pending sales, inventory, new listings</td>
+      </tr>
+      <tr>
+          <td>Market speed</td>
+          <td>Median days on market</td>
+      </tr>
+      <tr>
+          <td>Buyer competition</td>
+          <td>Sale-to-list ratio, homes sold above list, off-market velocity</td>
+      </tr>
+      <tr>
+          <td>Stability</td>
+          <td>Volatility and longer-term trend behavior</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Dimensionality reduction:</strong> I applied unsupervised clustering to group correlated variables, reducing redundant market features by ~65%. Many real estate variables tell overlapping stories — sale price, list price, price/sqft, and YoY price movement are related but shouldn&rsquo;t all over-count the same signal.</p>
+<p><strong>Scoring layer:</strong> I combined a transparent rule-based baseline (easy to explain to stakeholders) with a gradient-boosted model to capture nonlinear relationships. Feature-importance analysis translated the model back into business-readable drivers.</p>
+<p><strong>Comparable-property matching:</strong> I prototyped logic for matching a subject property to relevant comps using address similarity, geographic distance, property size, lot size, sale date, price, and listing status — connecting the ZIP-level market score to the practical workflow of evaluating a specific property.</p>
+<hr>
+<h2 id="results">Results</h2>
 <ul>
-<li><strong>11.3 million property records</strong></li>
-<li><strong>1,000+ market features</strong> per property</li>
+<li>Transformed messy provider data into structured, interpretable market features</li>
+<li>Reduced feature complexity by ~65% through clustering</li>
+<li>Created a dynamic LTV framework: instead of treating every property market the same, the system explains why stronger, more liquid markets support more confidence while volatile markets warrant conservative lending assumptions</li>
+<li>Built reusable components for market data cleaning, API-based ingestion, feature preparation, and comp filtering</li>
 </ul>
-<p>This required building robust ETL pipelines capable of handling data at scale while maintaining data quality and consistency.</p>
-<h3 id="feature-engineering--dimensionality-reduction">Feature Engineering &amp; Dimensionality Reduction</h3>
-<p>Applied unsupervised feature clustering techniques to:</p>
-<ul>
-<li>Group highly correlated variables together</li>
-<li>Reduce dimensionality by <strong>65%</strong></li>
-<li>Improve model interpretability without sacrificing predictive power</li>
-</ul>
-<p>This approach made the resulting models more explainable for business stakeholders while maintaining strong performance.</p>
-<h2 id="technical-stack">Technical Stack</h2>
-<ul>
-<li><strong>Data Processing:</strong> Python, Pandas, SQL</li>
-<li><strong>APIs:</strong> Trestle API (CRMLS)</li>
-<li><strong>ML Techniques:</strong> Unsupervised Clustering, Feature Selection</li>
-<li><strong>Scale:</strong> 11.3M+ records, 1000+ features</li>
-</ul>
-<h2 id="impact">Impact</h2>
-<p>The pipeline I built enables Bluebono to provide accurate property valuations and market scores, helping clients make informed decisions in the competitive California real estate market.</p>
+<hr>
+<h2 id="key-design-decisions">Key Design Decisions</h2>
+<p><strong>Market-level risk modeling.</strong> The most important choice was modeling risk at the ZIP-code level, not just the individual property. Valuation tells you what an asset may be worth today, but LTV risk also depends on how resilient that value is — a liquid, high-demand market is easier to exit than one with rising inventory and slow sales.</p>
+<p><strong>Respecting time.</strong> Housing data is naturally time-series data. A random train-test split would let future market behavior leak into the past. Time-based train/validation/test splits better matched the real question: given only historical data up to this point, how well can we score the next period?</p>
+<p><strong>Conservative missing data handling.</strong> Short gaps in monthly indicators can be filled from nearby months since these metrics move gradually. Long gaps at the start or end of a ZIP&rsquo;s history are different — filling those aggressively creates false confidence, so I treated them carefully and avoided future information in validation periods.</p>
+<p><strong>Interpretability over complexity.</strong> In a lending-adjacent workflow, a score is only useful if stakeholders understand what drives it. Combining a rule-based baseline with ML-assisted discovery let the model reveal nonlinear patterns while keeping the final explanation grounded in business logic.</p>
 
           </article>
         </div>
@@ -343,15 +372,10 @@ Data Analyst Intern at Bluebono | Clara Zeng
                 <nav id="TableOfContents">
   <ul>
     <li><a href="#overview">Overview</a></li>
-    <li><a href="#key-contributions">Key Contributions</a>
-      <ul>
-        <li><a href="#data-acquisition--vendor-management">Data Acquisition &amp; Vendor Management</a></li>
-        <li><a href="#large-scale-data-engineering">Large-Scale Data Engineering</a></li>
-        <li><a href="#feature-engineering--dimensionality-reduction">Feature Engineering &amp; Dimensionality Reduction</a></li>
-      </ul>
-    </li>
-    <li><a href="#technical-stack">Technical Stack</a></li>
-    <li><a href="#impact">Impact</a></li>
+    <li><a href="#what-i-built">What I Built</a></li>
+    <li><a href="#pipeline-details">Pipeline Details</a></li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#key-design-decisions">Key Design Decisions</a></li>
   </ul>
 </nav>
               </div>
@@ -371,6 +395,14 @@ Data Analyst Intern at Bluebono | Clara Zeng
                 target="_blank"
               >Data Engineering</a></li>
               
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/python"
+                target="_blank"
+              >Python</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/machine-learning"
+                target="_blank"
+              >Machine Learning</a></li>
+              
               <li class="list-inline-item"><a href="http://localhost:1313/tags/feature-engineering"
                 target="_blank"
               >Feature Engineering</a></li>
@@ -385,23 +417,18 @@ Data Analyst Intern at Bluebono | Clara Zeng
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text= http%3a%2f%2flocalhost%3a1313%2fexperiences%2fbluebono%2f">
+                  <a target="_blank" href="https://github.com/Clara-z">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/in/qiang-zeng-clara/">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='https://twitter.com/share?text=Data%20Analyst%20Intern%20at%20Bluebono&url=http%3a%2f%2flocalhost%3a1313%2fexperiences%2fbluebono%2f&hashtags=Real%20Estate%20Analytics%2cData%20Engineering%2cFeature%20Engineering'>
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=Data%20Analyst%20Intern%20at%20Bluebono: http%3a%2f%2flocalhost%3a1313%2fexperiences%2fbluebono%2f">
-                    <i class="fab fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=Data%20Analyst%20Intern%20at%20Bluebono&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fexperiences%2fbluebono%2f'>
-                    <i class="fa fa-envelope"></i>
+                  <a href="mailto:qiang_zeng@berkeley.edu">
+                    <i class="fas fa-envelope"></i>
                   </a>
                 </li>
               </ul>
@@ -497,6 +524,14 @@ Data Analyst Intern at Bluebono | Clara Zeng
 
     
     <span class="px-1">
+        <a href="mailto:qiang_zeng@berkeley.edu" aria-label="email">
+            <i class="fas fa-envelope" style="font-size:2.2em;"></i>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
         <a href="https://www.linkedin.com/in/qiang-zeng-clara/" target="_blank" aria-label="linkedin">
             <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
                 viewBox="0 0 512 512">
@@ -518,7 +553,7 @@ Data Analyst Intern at Bluebono | Clara Zeng
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             
-            &copy; 2025  All Rights Reserved
+            &copy; 2026  All Rights Reserved
             <div class="text-secondary">
                 Made with
                 <span class="text-danger">

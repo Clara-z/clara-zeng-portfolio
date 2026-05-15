@@ -1,7 +1,8 @@
 ---
 title: "AI-Based Career Advisor"
-date: 2025-05-01
+date: 2024-12-01
 draft: false
+duration: "Aug – Dec 2024"
 tags: ["LLMs", "Python", "Streamlit", "NLP"]
 ---
 

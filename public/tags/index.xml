@@ -107,6 +107,27 @@
       <description></description>
     </item>
     <item>
+      <title>Business Analytics</title>
+      <link>http://localhost:1313/tags/business-analytics/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/business-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Storytelling</title>
+      <link>http://localhost:1313/tags/data-storytelling/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-storytelling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistical Analysis</title>
+      <link>http://localhost:1313/tags/statistical-analysis/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/statistical-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Financial ML</title>
       <link>http://localhost:1313/tags/financial-ml/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
@@ -121,10 +142,24 @@
       <description></description>
     </item>
     <item>
+      <title>MLflow</title>
+      <link>http://localhost:1313/tags/mlflow/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mlflow/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>MLOps</title>
       <link>http://localhost:1313/tags/mlops/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/mlops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XGBoost</title>
+      <link>http://localhost:1313/tags/xgboost/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xgboost/</guid>
       <description></description>
     </item>
     <item>
@@ -191,27 +226,6 @@
       <description></description>
     </item>
     <item>
-      <title>Example</title>
-      <link>http://localhost:1313/tags/example/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown Syntax</title>
-      <link>http://localhost:1313/tags/markdown-syntax/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/markdown-syntax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mathjax</title>
-      <link>http://localhost:1313/tags/mathjax/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/mathjax/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Full-Stack</title>
       <link>http://localhost:1313/tags/full-stack/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
@@ -233,13 +247,6 @@
       <description></description>
     </item>
     <item>
-      <title>Sample</title>
-      <link>http://localhost:1313/tags/sample/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/sample/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Emoji Support</title>
       <link>http://localhost:1313/tags/emoji-support/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
@@ -247,17 +254,17 @@
       <description></description>
     </item>
     <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/tags/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/tags/placeholder-text/</guid>
+      <title>Example</title>
+      <link>http://localhost:1313/tags/example/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/tags/example/</guid>
       <description></description>
     </item>
     <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/tags/rich-content/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/rich-content/</guid>
+      <title>Sample</title>
+      <link>http://localhost:1313/tags/sample/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/tags/sample/</guid>
       <description></description>
     </item>
   </channel>

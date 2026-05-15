@@ -31,25 +31,25 @@
 <meta property="og:url" content="http://localhost:1313/experiences/cmind-ai/">
   <meta property="og:site_name" content="Clara Zeng">
   <meta property="og:title" content="Associate Data Scientist at Cmind AI">
-  <meta property="og:description" content="Overview At Cmind AI, I work as an Associate Data Scientist focusing on building production-ready machine learning systems for financial applications. My work spans from architecting ML microservices to developing end-to-end NLP pipelines.
-Key Projects ML Microservices Architecture Architected and deployed modular machine-learning microservices for feature selection, class imbalance handling, and model training. This microservices approach enables independent scaling and significantly reduces production failure risk by isolating components.
-Technologies: Python, Docker, REST APIs, Cloud Infrastructure">
+  <meta property="og:description" content="Overview As an Associate Data Scientist at Cmind AI, I worked on AI systems that supported earnings prediction and financial text analysis. The work combined data science, software engineering, MLOps, and analyst-facing product thinking — the goal was not only to train accurate models, but to build workflows that could ingest financial data, generate predictions, explain signals, and support recurring analysis.
+Cmind publishes regular earnings prediction and market-analysis updates, so the technical work had to fit a real business rhythm: new financial data arrived continuously, earnings calendars changed, and analysts needed outputs that were reproducible, interpretable, and useful for decision-making.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="experiences">
-    <meta property="article:published_time" content="2024-05-01T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-05-01T00:00:00+00:00">
+    <meta property="article:published_time" content="2025-12-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-01T00:00:00+00:00">
     <meta property="article:tag" content="Machine Learning">
     <meta property="article:tag" content="MLOps">
-    <meta property="article:tag" content="NLP">
     <meta property="article:tag" content="Financial ML">
+    <meta property="article:tag" content="NLP">
+    <meta property="article:tag" content="LLMs">
+    <meta property="article:tag" content="Python">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Associate Data Scientist at Cmind AI">
-  <meta name="twitter:description" content="Overview At Cmind AI, I work as an Associate Data Scientist focusing on building production-ready machine learning systems for financial applications. My work spans from architecting ML microservices to developing end-to-end NLP pipelines.
-Key Projects ML Microservices Architecture Architected and deployed modular machine-learning microservices for feature selection, class imbalance handling, and model training. This microservices approach enables independent scaling and significantly reduces production failure risk by isolating components.
-Technologies: Python, Docker, REST APIs, Cloud Infrastructure">
+  <meta name="twitter:description" content="Overview As an Associate Data Scientist at Cmind AI, I worked on AI systems that supported earnings prediction and financial text analysis. The work combined data science, software engineering, MLOps, and analyst-facing product thinking — the goal was not only to train accurate models, but to build workflows that could ingest financial data, generate predictions, explain signals, and support recurring analysis.
+Cmind publishes regular earnings prediction and market-analysis updates, so the technical work had to fit a real business rhythm: new financial data arrived continuously, earnings calendars changed, and analysts needed outputs that were reproducible, interpretable, and useful for decision-making.">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -230,7 +230,7 @@ Associate Data Scientist at Cmind AI | Clara Zeng
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/resume/" title="">
+                        <a class="nav-link" href="/clara_zeng_resume_swe.pdf" title="" target="_blank">
                             
                             Resume
                         </a>
@@ -283,7 +283,7 @@ Associate Data Scientist at Cmind AI | Clara Zeng
             <h1 class="text-center mb-4">Associate Data Scientist at Cmind AI</h1>
             <div class="text-center">
               
-              May 1, 2024
+              May 2024 – Dec 2025
 
               
               <span id="readingTime">
@@ -294,44 +294,44 @@ Associate Data Scientist at Cmind AI | Clara Zeng
           </div>
           
           <article class="page-content  p-2">
-          <h2 id="overview">Overview</h2>
-<p>At Cmind AI, I work as an Associate Data Scientist focusing on building production-ready machine learning systems for financial applications. My work spans from architecting ML microservices to developing end-to-end NLP pipelines.</p>
-<h2 id="key-projects">Key Projects</h2>
-<h3 id="ml-microservices-architecture">ML Microservices Architecture</h3>
-<p>Architected and deployed modular machine-learning microservices for feature selection, class imbalance handling, and model training. This microservices approach enables independent scaling and significantly reduces production failure risk by isolating components.</p>
-<p><strong>Technologies:</strong> Python, Docker, REST APIs, Cloud Infrastructure</p>
-<h3 id="earnings-per-share-eps-surprise-prediction-system">Earnings Per Share (EPS) Surprise Prediction System</h3>
-<p>Enhanced the company&rsquo;s flagship EPS Surprise Prediction system by implementing automated retraining pipelines. I trained and evaluated multiple model architectures including:</p>
+          <h3 id="overview">Overview</h3>
+<p>As an Associate Data Scientist at Cmind AI, I worked on AI systems that supported <strong>earnings prediction and financial text analysis</strong>. The work combined data science, software engineering, MLOps, and analyst-facing product thinking — the goal was not only to train accurate models, but to build workflows that could ingest financial data, generate predictions, explain signals, and support recurring analysis.</p>
+<p>Cmind publishes regular earnings prediction and market-analysis updates, so the technical work had to fit a real business rhythm: new financial data arrived continuously, earnings calendars changed, and analysts needed outputs that were reproducible, interpretable, and useful for decision-making.</p>
+<hr>
+<h3 id="building-end-to-end-prodcution-pipeline">Building End-to-End Prodcution Pipeline</h3>
+<p>One of my main contributions was improving the <strong>EPS surprise prediction workflow</strong> — predicting whether a company would beat or miss consensus EPS expectations using historical financial, market, sector, and macroeconomic features.</p>
+<p>I refactored the workflow into modular Python components for data loading, feature construction, model training, evaluation, prediction, and experiment tracking. Instead of treating the model as a one-off notebook, the pipeline became closer to a production ML workflow where each step had a clear responsibility.</p>
+<p>This software engineering work mattered because financial ML changes often. A team may want to compare new models, adjust features, change validation strategy, or rerun predictions for a new reporting period. Modular design made those changes faster and safer.</p>
+<hr>
+<h3 id="modeling-financial-data">Modeling Financial Data</h3>
+<p>For the core tabular prediction task, I worked primarily with <strong>XGBoost</strong> and benchmark-style model experimentation. XGBoost was a practical choice because the data was structured, sector-level sample sizes were limited, and tree-based models perform well on nonlinear interactions between financial ratios, prior performance, estimates, and macro variables.</p>
+<p>The most important modeling lesson was that financial prediction is <strong>time-sensitive</strong> — a model should only learn from information available before the earnings event being predicted. I focused on time-aware feature engineering, including shifted quarterly features and change-based signals, to capture both a company&rsquo;s current state and the direction its fundamentals were moving.</p>
+<p>I also addressed class imbalance and high-dimensional features, using imbalance-handling strategies, feature selection, and validation metrics that better reflected the real prediction task. In targeted quarterly runs, the system achieved <strong>~90% forecast accuracy</strong> in selected evaluation settings.</p>
+<hr>
+<h3 id="mlops-and-reproducibility-with-mlflow">MLOps and Reproducibility with MLflow</h3>
+<p>A major part of the project was making experiments reproducible. I integrated <strong>MLflow</strong> to track model parameters, metrics, artifacts, and model versions — allowing the team to compare experiments, understand which choices produced each result, and manage models more systematically.</p>
+<p>For engineers, MLflow reduced ambiguity around model versions and experiment history. For analysts, reproducibility increased trust: a prediction was the output of a traceable workflow, not just a number.</p>
+<p>I also learned to think beyond headline metrics. Accuracy, F1, AUC, and precision on high-confidence predictions answer different questions. For an analyst-facing product, the most valuable metric is often how reliable the <strong>top-ranked opportunities</strong> are, not overall accuracy.</p>
+<hr>
+<h3 id="financial-nlp-and-llm-based-analysis">Financial NLP and LLM-Based Analysis</h3>
+<p>Alongside structured EPS prediction, I worked on <strong>earnings-call transcript analysis</strong> — a signal source that financial statements alone may not capture: management confidence, evasiveness, tone, and forward-looking commentary.</p>
+<p>I helped build a transcript analysis workflow combining <strong>FinBERT</strong> with <strong>OpenAI API</strong> calls:</p>
 <ul>
-<li><strong>XGBoost</strong> - For gradient boosting on structured financial data</li>
-<li><strong>Support Vector Machines (SVM)</strong> - For classification tasks</li>
-<li><strong>Recurrent Neural Networks (RNN)</strong> - For capturing temporal patterns in sequential data</li>
+<li><strong>FinBERT</strong> handled scalable domain-specific sentiment scoring</li>
+<li><strong>LLM prompts</strong> supported contextual tasks: speaker role extraction, paragraph attribution, evasiveness scoring, and bullishness/bearishness explanations</li>
 </ul>
-<p>The system processes 15+ years of historical financial data and achieves <strong>90% quarterly forecast accuracy</strong>.</p>
-<h3 id="sentiment-analysis-pipeline">Sentiment Analysis Pipeline</h3>
-<p>Led development of a customizable end-to-end sentiment-analysis pipeline featuring:</p>
+<p>The result was a workflow that turned messy transcript text into organized, analyst-ready tables for downstream analytics.</p>
+<hr>
+<h3 id="data-and-deployment-integration">Data and Deployment Integration</h3>
+<p>The project also required connecting models to real data sources and operational workflows. I worked with integrations across <strong>Oracle Cloud, AWS S3, MongoDB</strong>, and analytical storage — not just as infrastructure details, but as the layer that determined whether models could be used repeatedly in a business setting.</p>
+<p>A strong model is not useful if the data is hard to retrieve, outputs are difficult to inspect, or the process cannot be rerun reliably. I focused on workflows that could support both analyst review and production-style data movement.</p>
+<hr>
+<h3 id="results-and-impact">Results and Impact</h3>
 <ul>
-<li><strong>FinBERT integration</strong> - Fine-tuned BERT model for financial domain text</li>
-<li><strong>OpenAI APIs</strong> - For tailored Q&amp;A with explanations</li>
-<li><strong>Oracle Cloud ingestion</strong> - For cost-efficient legacy-system compatibility</li>
-<li><strong>AWS S3 storage</strong> - Supporting smooth migration to modern analytics workflows</li>
-</ul>
-<h3 id="mlops--experiment-tracking">MLOps &amp; Experiment Tracking</h3>
-<p>Leveraged MLflow throughout all projects for:</p>
-<ul>
-<li>Experiment tracking and comparison</li>
-<li>Model version control</li>
-<li>Deployment monitoring</li>
-<li>Ensuring reproducibility and compliance with internal MLOps standards</li>
-</ul>
-<h2 id="skills-developed">Skills Developed</h2>
-<ul>
-<li>Feature Selection &amp; Engineering</li>
-<li>Model Training &amp; Evaluation</li>
-<li>Class Imbalance Handling</li>
-<li>MLOps Best Practices</li>
-<li>Financial Domain NLP</li>
-<li>Cloud Infrastructure (AWS, Oracle)</li>
+<li><strong>EPS prediction system</strong> became more modular, maintainable, and easier to iterate on</li>
+<li><strong>MLflow integration</strong> made model experiments and versioning transparent across the team</li>
+<li><strong>Transcript analysis pipeline</strong> added explainable NLP signals from earnings calls</li>
+<li><strong>Cloud integrations</strong> connected research workflows to practical, analyst-facing analytics.</li>
 </ul>
 
           </article>
@@ -347,16 +347,17 @@ Associate Data Scientist at Cmind AI | Clara Zeng
               <div class="toc-content">
                 <nav id="TableOfContents">
   <ul>
-    <li><a href="#overview">Overview</a></li>
-    <li><a href="#key-projects">Key Projects</a>
+    <li>
       <ul>
-        <li><a href="#ml-microservices-architecture">ML Microservices Architecture</a></li>
-        <li><a href="#earnings-per-share-eps-surprise-prediction-system">Earnings Per Share (EPS) Surprise Prediction System</a></li>
-        <li><a href="#sentiment-analysis-pipeline">Sentiment Analysis Pipeline</a></li>
-        <li><a href="#mlops--experiment-tracking">MLOps &amp; Experiment Tracking</a></li>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#building-end-to-end-prodcution-pipeline">Building End-to-End Prodcution Pipeline</a></li>
+        <li><a href="#modeling-financial-data">Modeling Financial Data</a></li>
+        <li><a href="#mlops-and-reproducibility-with-mlflow">MLOps and Reproducibility with MLflow</a></li>
+        <li><a href="#financial-nlp-and-llm-based-analysis">Financial NLP and LLM-Based Analysis</a></li>
+        <li><a href="#data-and-deployment-integration">Data and Deployment Integration</a></li>
+        <li><a href="#results-and-impact">Results and Impact</a></li>
       </ul>
     </li>
-    <li><a href="#skills-developed">Skills Developed</a></li>
   </ul>
 </nav>
               </div>
@@ -376,13 +377,29 @@ Associate Data Scientist at Cmind AI | Clara Zeng
                 target="_blank"
               >MLOps</a></li>
               
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/financial-ml"
+                target="_blank"
+              >Financial ML</a></li>
+              
               <li class="list-inline-item"><a href="http://localhost:1313/tags/nlp"
                 target="_blank"
               >NLP</a></li>
               
-              <li class="list-inline-item"><a href="http://localhost:1313/tags/financial-ml"
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/llms"
                 target="_blank"
-              >Financial ML</a></li>
+              >LLMs</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/python"
+                target="_blank"
+              >Python</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/mlflow"
+                target="_blank"
+              >MLflow</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/xgboost"
+                target="_blank"
+              >XGBoost</a></li>
               
             </ul>
           </aside>
@@ -394,23 +411,18 @@ Associate Data Scientist at Cmind AI | Clara Zeng
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text= http%3a%2f%2flocalhost%3a1313%2fexperiences%2fcmind-ai%2f">
+                  <a target="_blank" href="https://github.com/Clara-z">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/in/qiang-zeng-clara/">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='https://twitter.com/share?text=Associate%20Data%20Scientist%20at%20Cmind%20AI&url=http%3a%2f%2flocalhost%3a1313%2fexperiences%2fcmind-ai%2f&hashtags=Machine%20Learning%2cMLOps%2cNLP%2cFinancial%20ML'>
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=Associate%20Data%20Scientist%20at%20Cmind%20AI: http%3a%2f%2flocalhost%3a1313%2fexperiences%2fcmind-ai%2f">
-                    <i class="fab fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=Associate%20Data%20Scientist%20at%20Cmind%20AI&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fexperiences%2fcmind-ai%2f'>
-                    <i class="fa fa-envelope"></i>
+                  <a href="mailto:qiang_zeng@berkeley.edu">
+                    <i class="fas fa-envelope"></i>
                   </a>
                 </li>
               </ul>
@@ -506,6 +518,14 @@ Associate Data Scientist at Cmind AI | Clara Zeng
 
     
     <span class="px-1">
+        <a href="mailto:qiang_zeng@berkeley.edu" aria-label="email">
+            <i class="fas fa-envelope" style="font-size:2.2em;"></i>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
         <a href="https://www.linkedin.com/in/qiang-zeng-clara/" target="_blank" aria-label="linkedin">
             <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
                 viewBox="0 0 512 512">
@@ -527,7 +547,7 @@ Associate Data Scientist at Cmind AI | Clara Zeng
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             
-            &copy; 2025  All Rights Reserved
+            &copy; 2026  All Rights Reserved
             <div class="text-secondary">
                 Made with
                 <span class="text-danger">

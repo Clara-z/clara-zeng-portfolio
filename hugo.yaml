@@ -7,8 +7,10 @@ menu:
   main:
     - identifier: resume
       name: Resume
-      url: /resume/
+      url: /Clara_Zeng_Resume_SWE.pdf
       weight: 50
+      params:
+        target: _blank
 
 outputs:
   home:
@@ -70,15 +72,17 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/resume/"
+      url: "/Clara_Zeng_Resume_SWE.pdf"
       download: false
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/Clara-z
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/qiang-zeng-clara/
+        - icon: fas fa-envelope
+          url: mailto:qiang_zeng@berkeley.edu
 
   # About Section
   about:
@@ -212,7 +216,7 @@ params:
             url: "/experiences/ai-career-advisor/"
 
 
-      - title: "Meridio – AI Educational Gaming Platform"
+      - title: "Meridio - AI Educational Gaming Platform"
         content: "AI tutoring system helping students learn math interactively."
         image: /images/projects/aieducation.png
         imagePosition: "right center"     # <-- ADD THIS LINE
@@ -223,6 +227,18 @@ params:
         links:
           - icon: fas fa-arrow-right
             url: "/experiences/meridio-education/"
+
+      - title: "LLM Prompt Recovery — Kaggle Competition"
+        content: "Fine-tuned Mixtral-8x7B (46B params) using QLoRA with 4-bit quantization. Implemented custom Sharpened Cosine Similarity loss with sentence-T5 embeddings for prompt prediction."
+        image: /images/projects/mistral.png
+        badges:
+          - "LLM Fine-tuning"
+          - "QLoRA"
+          - "PyTorch"
+          - "NLP"
+        links:
+          - icon: fab fa-kaggle
+            url: "/experiences/llm-prompt-recovery/"
 
 
       - title: "Hate Speech Detection"
@@ -253,7 +269,7 @@ params:
     title: "Get In Touch"
     content: "I'm currently open to 2026 new-grad roles in Data Science, AI/ML Engineering, and Data Engineering. Feel free to reach out!"
     btnName: "Email Me"
-    btnLink: "https://mail.google.com/mail/?view=cm&fs=1&to=qiang_zeng@berkeley.edu"
+    btnLink: "mailto:qiang_zeng@berkeley.edu"
 
   # Footer
   footer:
@@ -267,6 +283,7 @@ params:
     socialNetworks:
       github: https://github.com/Clara-z
       linkedin: https://www.linkedin.com/in/qiang-zeng-clara/
+      email: qiang_zeng@berkeley.edu
 
   listPages:
     disableFeaturedImage: false

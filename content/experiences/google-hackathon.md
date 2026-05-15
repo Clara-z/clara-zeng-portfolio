@@ -1,7 +1,8 @@
 ---
 title: "Customer Churn Diagnosis – Google x Berkeley Analytics Hackathon"
-date: 2024-12-01
+date: 2025-12-01
 draft: false
+duration: "Dec 2025"
 tags: ["Business Analytics", "Python", "Statistical Analysis", "Data Storytelling"]
 ---
 

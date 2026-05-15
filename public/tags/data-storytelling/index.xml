@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Storytelling on Clara Zeng</title>
+    <link>http://localhost:1313/tags/data-storytelling/</link>
+    <description>Recent content in Data Storytelling on Clara Zeng</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-storytelling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customer Churn Diagnosis – Google x Berkeley Analytics Hackathon</title>
+      <link>http://localhost:1313/experiences/google-hackathon/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/google-hackathon/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Top 3 Finalist&lt;/strong&gt; in the Google x UC Berkeley Analytics Hackathon. Diagnosed a 3x customer churn spike for a SaaS company by analyzing messy, real-world datasets and delivered an executive-ready recommendation projected to retain $23M in annual contract value.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;&#xA;&lt;p&gt;BizGrow, a SaaS inventory management platform, saw churn spike from 4% to 12% in one quarter. Leadership was divided:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sales blamed product performance&lt;/li&gt;&#xA;&lt;li&gt;Product blamed low-quality customer acquisition&lt;/li&gt;&#xA;&lt;li&gt;Support felt overwhelmed by tickets&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The COO needed one actionable recommendation with limited resources—not a dashboard or 50 charts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
